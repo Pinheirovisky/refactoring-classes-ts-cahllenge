@@ -9,11 +9,14 @@ import { Input, Modal } from "components";
 // styles:
 import { Form } from "./styles";
 
+// models:
+import { ItemFood } from "components/Food";
+
 interface ModalEditFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
   editingFood: Record<string, any>;
-  handleUpdateFood: (data: FormData) => void;
+  handleUpdateFood: (data: ItemFood) => void;
 }
 
 const ModalEditFood: React.FC<ModalEditFoodProps> = ({
@@ -24,7 +27,7 @@ const ModalEditFood: React.FC<ModalEditFoodProps> = ({
 }: ModalEditFoodProps) => {
   const formRef = useRef(null);
 
-  const handleSubmit = async (data: FormData) => {
+  const handleSubmit = async (data: ItemFood) => {
     handleUpdateFood(data);
     setIsOpen();
   };

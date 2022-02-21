@@ -9,7 +9,7 @@ import api from "services/api";
 // styles:
 import { Container } from "./styles";
 
-interface ItemFood {
+export interface ItemFood {
   available: boolean;
   id: string;
   image: string;
