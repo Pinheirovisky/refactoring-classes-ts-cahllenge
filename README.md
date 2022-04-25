@@ -2,7 +2,7 @@
 
 ![demo](https://github.com/Pinheirovisky/refactoring-classes-ts-challenge/blob/master/public/demo.png)
 
-Desafio de refatoração. O arquivo começou com uma estrtura de JS puro, utilizando o Class Components do ReactJs. A ideia é convertê-lo par ao formato mais recente com TypeScript, além de utilizar Function Components também.
+Desafio de refatoração. O arquivo começou com uma estrutura de JS puro, utilizando o Class Components do ReactJs. A ideia é convertê-lo par ao formato mais recente com TypeScript, além de utilizar Function Components também.
 
 ## Rodando a Aplicação
 
